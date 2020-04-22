@@ -24,11 +24,11 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.inspur.broadcast">
-
-                </action>
+                <action android:name="com.inspur.broadcast"></action>
             </intent-filter>
         </receiver>
+
+        <activity android:name=".Ch10Activity3"></activity>
     </application>
 
 </manifest>

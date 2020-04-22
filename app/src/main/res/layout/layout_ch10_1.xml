@@ -7,5 +7,14 @@
         android:text="finish"
         android:onClick="finishClick"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="counter"
+        android:onClick="counter"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ch10_1_tv"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
