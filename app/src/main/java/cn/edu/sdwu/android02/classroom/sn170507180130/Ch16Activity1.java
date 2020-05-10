@@ -8,6 +8,7 @@ import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
 import android.hardware.camera2.CaptureRequest;
+import android.media.ImageReader;
 import android.net.Uri;
 import android.os.Build;
 import android.support.annotation.IntDef;
@@ -31,6 +32,13 @@ private TextureView textureView;
     private CaptureRequest.Builder captureRequestBuilder;
     private CaptureRequest captureRequest;
     private CameraCaptureSession cameraCaptureSession;
+    private ImageReader imageReader;   //接收相机生成的静态图像
+    public void takephoto(View view){
+    //点击快门，生成静态图像
+        if(cameraDevice!=null){
+            //使用Builder,创建请求
+        }
+   }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
